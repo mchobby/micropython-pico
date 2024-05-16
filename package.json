@@ -1,8 +1,8 @@
 {
   "urls": [
     ["buzzer.py", "github:mchobby/micropython-pico/lib/buzzer.py"],
-		["servo.py", "github:mchobby/micropython-pico/lib/servo.py"],
-		["ws2812.py", "github:mchobby/micropython-pico/lib/ws2812.py"],
+    ["servo.py", "github:mchobby/micropython-pico/lib/servo.py"],
+    ["ws2812.py", "github:mchobby/micropython-pico/lib/ws2812.py"]
   ],
   "version": "1.0"
 }
