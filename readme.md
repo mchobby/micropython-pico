@@ -24,6 +24,7 @@ mpremote mip install github:mchobby/micropython-pico
 
 What are the libraries:
 * [`servo.py`](lib/servo.py) : offers the `Servo` class used to control servo-moteur.
+* [`ultrasonic.py`](lib/ultrasonic.py) : offers the `Ultrasonic` class used to measure distances with a HC-SR04.
 * [`buzzer.py`](lib/buzzer.py) : allows to play sound with a Piezo Buzzer (default on GPIO7).
 * [`ws2812.py`](lib/ws2812.py) : use the WS2812 / NeoPixel Smart RGB leds (default on GPIO11).
 
@@ -45,3 +46,8 @@ s.calibration( 1.0, 2.0, 1.5, 0, 180 )
 # SG92R calibratioin
 s.calibration( 0.5, 2.5, 1.5, 0, 180 )
 ```
+
+# Ultrasonic
+
+An example is available in the following repository [pico-projects](https://github.com/mchobby/pico-projects) under the file [test_ultrasonic.py](https://github.com/mchobby/pico-projects/blob/main/07-servo-roulette/test_ultrasonic.py)
+
