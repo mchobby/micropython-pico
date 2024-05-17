@@ -5,5 +5,5 @@
     ["ultrasonic.py", "github:mchobby/micropython-pico/lib/ultrasonic.py" ],
     ["ws2812.py", "github:mchobby/micropython-pico/lib/ws2812.py"]
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
